@@ -3,30 +3,28 @@
 	"id": "wildlife-journal-trophy",
 	"version": "${version}",
 	"name": "Wildlife Journal Trophy",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A special trophy for completing the journal in Cozy Wildlife Journal modpack.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/wildlife-journal-trophy",
+		"issues": "https://github.com/JustErikSK/WildlifeJournalTrophy-Mod/issues",
+		"sources": "https://github.com/JustErikSK/WildlifeJournalTrophy-Mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/wildlife-journal-trophy/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.withrage.wildlifejournal.WildlifeJournalTrophy"
-		],
-		"fabric-datagen": [
-			"net.withrage.wildlifejournal.WildlifeJournalTrophyDataGenerator"
 		]
 	},
 	"mixins": [
 		"wildlife-journal-trophy.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.19.1",
+		"fabricloader": ">=0.19.0",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
