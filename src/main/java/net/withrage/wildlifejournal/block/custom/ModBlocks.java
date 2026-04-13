@@ -20,7 +20,7 @@ public class ModBlocks {
     );
 
     private static Block registerBlock(String name, Block block) {
-        return Registry.register(Registries.BLOCK, new Identifier("wildlife_journal", name), block);
+        return Registry.register(Registries.BLOCK, new Identifier("wildlife-journal-trophy", name), block);
     }
 
     public static void registerModBlocks() {

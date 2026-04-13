@@ -13,12 +13,12 @@ import net.withrage.wildlifejournal.block.custom.ModBlocks;
 public class ModItems {
 
     public static final Item WILDLIFE_JOURNAL_TROPHY_ITEM = registerItem(
-            "wildlife_trophy",
+            "wildlife_journal_trophy",
             new BlockItem(ModBlocks.WILDLIFE_JOURNAL_TROPHY, new Item.Settings())
     );
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier("cozywildlife", name), item);
+        return Registry.register(Registries.ITEM, new Identifier("wildlife-journal-trophy", name), item);
     }
 
     public static void registerModItems() {
