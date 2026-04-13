@@ -16,6 +16,7 @@ public class ModBlocks {
                     .copy(Blocks.GOLD_BLOCK)
                     .strength(1.5f)
                     .nonOpaque()
+                    .luminance(state -> 3)
             )
     );
 
