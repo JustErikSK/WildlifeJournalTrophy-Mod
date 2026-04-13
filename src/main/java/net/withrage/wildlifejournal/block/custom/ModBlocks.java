@@ -12,7 +12,7 @@ public class ModBlocks {
 
     public static final Block WILDLIFE_JOURNAL_TROPHY = registerBlock(
             "wildlife_journal_trophy",
-            new Block(AbstractBlock.Settings
+            new WildlifeJournalTrophyBlock(AbstractBlock.Settings
                     .copy(Blocks.GOLD_BLOCK)
                     .strength(1.5f)
                     .nonOpaque()

@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "wildlife-journal-trophy:block/wildlife_journal_trophy" }
+    "facing=north": { "model": "wildlife-journal-trophy:block/wildlife_journal_trophy" },
+    "facing=east":  { "model": "wildlife-journal-trophy:block/wildlife_journal_trophy", "y": 90 },
+    "facing=south": { "model": "wildlife-journal-trophy:block/wildlife_journal_trophy", "y": 180 },
+    "facing=west":  { "model": "wildlife-journal-trophy:block/wildlife_journal_trophy", "y": 270 }
   }
 }
