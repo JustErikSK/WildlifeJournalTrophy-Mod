@@ -1,3 +1,10 @@
 {
-  "block.wildlife-journal-trophy.wildlife_journal_trophy": "Cozy Wildlife Journal Trophy"
+  "block.wildlife-journal-trophy.wildlife_journal_trophy": "Cozy Wildlife Journal Trophy",
+
+  "item.wildlife-journal-trophy.icon_paw": "Paw Chapter Icon",
+  "item.wildlife-journal-trophy.icon_fish": "Fish Chapter Icon",
+  "item.wildlife-journal-trophy.icon_feather": "Feather Chapter Icon",
+  "item.wildlife-journal-trophy.icon_trophy": "Trophy Quest Icon",
+
+  "itemgroup.mod_title": "Wildlife Journal Trophy"
 }
