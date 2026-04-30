@@ -5,6 +5,9 @@
   "item.wildlife-journal-trophy.icon_fish": "Fish Chapter Icon",
   "item.wildlife-journal-trophy.icon_feather": "Feather Chapter Icon",
   "item.wildlife-journal-trophy.icon_trophy": "Trophy Quest Icon",
+  "item.wildlife-journal-trophy.reward_icon_paw": "Paw Reward Icon",
+  "item.wildlife-journal-trophy.reward_icon_fish": "Fish Reward Icon",
+  "item.wildlife-journal-trophy.reward_icon_feather": "Feather Reward Icon",
 
   "itemgroup.mod_title": "Wildlife Journal Trophy"
 }

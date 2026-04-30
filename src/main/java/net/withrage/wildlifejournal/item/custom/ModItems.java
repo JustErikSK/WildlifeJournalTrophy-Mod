@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item ICON_FISH = registerItem("icon_fish", new Item(new FabricItemSettings()));
     public static final Item ICON_FEATHER = registerItem("icon_feather", new Item(new FabricItemSettings()));
     public static final Item ICON_TROPHY = registerItem("icon_trophy", new Item(new FabricItemSettings()));
+    public static final Item REWARD_ICON_PAW = registerItem("reward_icon_paw", new Item(new FabricItemSettings()));
+    public static final Item REWARD_ICON_FISH = registerItem("reward_icon_fish", new Item(new FabricItemSettings()));
+    public static final Item REWARD_ICON_FEATHER = registerItem("reward_icon_feather", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier("wildlife-journal-trophy", name), item);

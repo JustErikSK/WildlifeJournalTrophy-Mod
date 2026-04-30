@@ -22,6 +22,9 @@ public class ModItemGroups {
                         entries.add(ModItems.ICON_PAW);
                         entries.add(ModItems.ICON_FISH);
                         entries.add(ModItems.ICON_FEATHER);
+                        entries.add(ModItems.REWARD_ICON_PAW);
+                        entries.add(ModItems.REWARD_ICON_FISH);
+                        entries.add(ModItems.REWARD_ICON_FEATHER);
                     }).build());
 
     public static void registerItemGroups() {
