@@ -2,6 +2,7 @@ package net.withrage.wildlifejournal;
 
 import net.fabricmc.api.ModInitializer;
 import net.withrage.wildlifejournal.block.custom.ModBlocks;
+import net.withrage.wildlifejournal.events.ModEvents;
 import net.withrage.wildlifejournal.item.custom.ModItems;
 import net.withrage.wildlifejournal.messages.custom.PlayerWelcomeState;
 import org.slf4j.Logger;
@@ -21,6 +22,7 @@ public class WildlifeJournalTrophy implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModEvents.registerEvents();
 
 		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
 			ServerPlayerEntity player = handler.getPlayer();
